@@ -7,7 +7,7 @@ function Cart({ cartItems, onClose, removeFromCart }) {
     <div className="cart-modal">
       <div className="cart-content">
         <button onClick={onClose} className="close-cart">X Close</button>
-        <h2>Shopping Cart</h2>
+        {/* <h2>Shopping Cart</h2>
         {cartItems.length === 0 ? (
           <>
           <p>No Products In The Cart</p>
@@ -22,7 +22,10 @@ function Cart({ cartItems, onClose, removeFromCart }) {
               </li>
             ))}
           </ul>
-        )}
+        )} */}
+
+        
+    <h1>COMING SOON</h1>
       </div>
     </div>
   );

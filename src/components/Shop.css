@@ -2,3 +2,8 @@
     padding: 2em;
     background-color: var(--section-bg-color);
 }
+
+h1{
+    padding: 5em;
+    text-align: center;
+}
