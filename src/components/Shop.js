@@ -20,7 +20,7 @@ function Shop({ addToCart, cart, removeFromCart }) {
   //   </div>
   // );
   return(
-    <h1>COMING SOON</h1>
+    <h1 className='shop-h1'>COMING SOON</h1>
   )
 
 }
