@@ -29,56 +29,60 @@ function Contact() {
       <section className="locations">
         <p className="locations-header">LOCATIONS</p>
         <div className="store-addresses">
-          <div className="address">
-            <p>781b Somide Odujinrin Ave, Olowora, Lagos 105102,<br></br> Lagos</p>
-            <p>+234 702 641 5849</p>
-            <a 
-              href="https://www.google.com/maps/search/?api=1&query=781b+Somide+Odujinrin+Ave,+Olowora,+Lagos+105102,+Lagos" 
-              target="_blank" 
-              rel="noopener noreferrer">
-              Get Directions
-            </a>
+          <div className="addresses-a">
+            <div className="address">
+              <p>781b Somide Odujinrin Ave, Olowora, Lagos</p>
+              <p className="location-number">+234 702 641 5849</p>
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=781b+Somide+Odujinrin+Ave,+Olowora,+Lagos+105102,+Lagos" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                Get Directions
+              </a>
+            </div>
+            <div className="address">
+              <p>27 Osolo Wy, Ajao Estate, Lagos</p>
+              <p className="location-number">+234 909 121 6615</p>
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=27+Osolo+Wy,+Ajao+Estate,+Lagos+100263,+Lagos" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                Get Directions
+              </a>
+            </div>
           </div>
-          <div className="address">
-            <p>27 Osolo Wy, Ajao Estate, Lagos 100263, <br></br>Lagos</p>
-            <p>+234 909 121 6615</p>
-            <a 
-              href="https://www.google.com/maps/search/?api=1&query=27+Osolo+Wy,+Ajao+Estate,+Lagos+100263,+Lagos" 
-              target="_blank" 
-              rel="noopener noreferrer">
-              Get Directions
-            </a>
+          <div className="addresses-b">
+            <div className="address">
+              <p>22 Tijani Ashogbon St, Akoka, Lagos</p>
+              <p className="location-number">+234 905 389 6311</p>
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=22+Tijani+Ashogbon+St,+Akoka,+Lagos+102216,+Lagos" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                Get Directions
+              </a>
+            </div>
+            <div className="address">
+              <p>Terminal 3, Oshodi transport interchange, Oshodi-Isolo, Lagos</p>
+              <p className="location-number">+234 915 333 3300</p>
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=Terminal+3,+Oshodi+transport+interchange,+Oshodi-Isolo,+Lagos+102214,+Lagos" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                Get Directions
+              </a>
+            </div>
           </div>
-          <div className="address">
-            <p>22 Tijani Ashogbon St, Akoka, Lagos 102216, <br></br>Lagos</p>
-            <p>+234 905 389 6311</p>
-            <a 
-              href="https://www.google.com/maps/search/?api=1&query=22+Tijani+Ashogbon+St,+Akoka,+Lagos+102216,+Lagos" 
-              target="_blank" 
-              rel="noopener noreferrer">
-              Get Directions
-            </a>
-          </div>
-          <div className="address">
-            <p>Terminal 3, Oshodi transport interchange, Oshodi-Isolo, Lagos 102214, <br></br>Lagos</p>
-            <p>+234 915 333 3300</p>
-            <a 
-              href="https://www.google.com/maps/search/?api=1&query=Terminal+3,+Oshodi+transport+interchange,+Oshodi-Isolo,+Lagos+102214,+Lagos" 
-              target="_blank" 
-              rel="noopener noreferrer">
-              Get Directions
-            </a>
-          </div>
-          <div className="address">
-            <p>Terminal station bus, Papa Ajao, Ikeja 102215, <br></br>Lagos</p>
-            <p>+234 915 333 3300</p>
+          <div className="address last-address">
+            <p>Terminal station bus, Papa Ajao, Lagos</p>
+            <p className="location-number">+234 915 333 3300</p>
             <a 
               href="https://www.google.com/maps/search/?api=1&query=Terminal+station+bus,+Papa+Ajao,+Ikeja+102215,+Lagos" 
               target="_blank" 
               rel="noopener noreferrer">
               Get Directions
             </a>
-          </div>
+          </div> 
         </div>
       </section>
     </div>

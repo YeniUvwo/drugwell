@@ -26,3 +26,16 @@ hr{
     width: 20%;
     margin: 6em auto !important;
 }
+
+@media(max-width:600px){
+    .about-page{
+        padding: 4em 2em;
+    }
+
+    .about-page p{
+        max-width: 100%;
+    }
+    .about-page section{
+        margin-bottom: 1em;
+    }
+}

@@ -1,4 +1,3 @@
-// Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
@@ -18,15 +17,15 @@ function Navbar({ toggleCart }) {
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse">
+        <div className="collapse navbar-collapse" id='navbarNav'>
           <ul className="navbar-nav">
             {['Home', 'About', 'Contact', 'Shop'].map((item) => (
               <li className="nav-item" key={item}>
@@ -36,15 +35,16 @@ function Navbar({ toggleCart }) {
               </li>
             ))}
           </ul>
+
+          <div className="ms-auto">
+            <FontAwesomeIcon 
+              icon={faCartShopping} 
+              className="cart-icon" 
+              onClick={toggleCart} 
+            />
+         </div>
         </div>
 
-        <div className="ms-auto">
-          <FontAwesomeIcon 
-            icon={faCartShopping} 
-            className="cart-icon" 
-            onClick={toggleCart} 
-          />
-        </div>
       </div>
     </nav>
   );
