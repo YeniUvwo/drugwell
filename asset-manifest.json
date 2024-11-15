@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/drugwell/static/css/main.6b3eac68.css",
-    "main.js": "/drugwell/static/js/main.b3c09bec.js",
+    "main.css": "/drugwell/static/css/main.c63abb02.css",
+    "main.js": "/drugwell/static/js/main.5bf1b3af.js",
     "static/js/453.419a5d54.chunk.js": "/drugwell/static/js/453.419a5d54.chunk.js",
     "static/media/prescription_services.avif": "/drugwell/static/media/prescription_services.ba6d631c24cafcbb388f.avif",
     "static/media/medication_management.avif": "/drugwell/static/media/medication_management.89bfc6dd832eec5aaa3d.avif",
@@ -9,12 +9,12 @@
     "static/media/health_consultations.avif": "/drugwell/static/media/health_consultations.14302a8ba772032b3e4d.avif",
     "static/media/store.avif": "/drugwell/static/media/store.f5cba3be642652e7a7e8.avif",
     "index.html": "/drugwell/index.html",
-    "main.6b3eac68.css.map": "/drugwell/static/css/main.6b3eac68.css.map",
-    "main.b3c09bec.js.map": "/drugwell/static/js/main.b3c09bec.js.map",
+    "main.c63abb02.css.map": "/drugwell/static/css/main.c63abb02.css.map",
+    "main.5bf1b3af.js.map": "/drugwell/static/js/main.5bf1b3af.js.map",
     "453.419a5d54.chunk.js.map": "/drugwell/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b3eac68.css",
-    "static/js/main.b3c09bec.js"
+    "static/css/main.c63abb02.css",
+    "static/js/main.5bf1b3af.js"
   ]
 }
